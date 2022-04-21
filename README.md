@@ -8,7 +8,10 @@ The ArchivalQA dataset, as well as its four sub-datasets (ArchivalQAEasy, Archiv
 </p>
 
 ## Dataset Generation Framework
-The [Dataset_Generation_Framework](Dataset_Generation_Framework/) folder contains the processing code we used to create the ArchivalQA dataset.
+The [Dataset_Generation_Framework](Dataset_Generation_Framework/) folder contains the processing code we used to create the ArchivalQA dataset. The following figure shows the architecture of the framework which consists of five modules: <em>Article Selection Module</em>, <em>Question Generation Module</em>, <em>Syntactic & Temporal Filtering/Transforming Module</em>, <em>General & Temporal Ambiguity Filtering Module</em> and <em>Triple-based Filtering Module</em>.
+<p align="center">
+  <img src="Dataset_Generation_Framework/QG_Framework.png">
+</p>
 
 ## Other Data
 Other resources, including three training datasets that used in the dataset-constructing framework and the filtered ambiguous questions, are desribed in [Other_Data](Other_Data/) folder.
