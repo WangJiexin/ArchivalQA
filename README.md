@@ -4,7 +4,7 @@ This repository contains data and code for the SIGIR 2022 paper "ArchivalQA: A L
 ## Dataset
 The ArchivalQA dataset, as well as its four sub-datasets (ArchivalQAEasy, ArchivalQAHard, ArchivalQATime, ArchivalQANoTime) are available and can be downloaded [here](https://drive.google.com/drive/folders/15JMtkJAqtZsKr_P-0jH4iFy2EOri4GbR). Please check [Dataset](Dataset/) for more details, in which we also desribe the basic statistics, the sub-datasets, the results of baselines as well as instructions for using the ArchivalQA dataset.  The following figure shows few examples stored in the ArchivalQA dataset.
 <p align="center">
-  <img src="ArchivalQA_Examples.png">
+  <img src="Dataset/ArchivalQA_Examples.png">
 </p>
 
 ## Dataset Generation Framework
