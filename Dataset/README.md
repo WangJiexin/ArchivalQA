@@ -30,7 +30,7 @@ We test three well-established ODQA approaches of different settings, that DrQA 
 </p>
 
 ## A Tutorial of Using ArchivalQA for Training DPR Model
-In [Dataset_Generation_Framework](Dataset_Generation_Framework/), we give a tutorial of using ArchivalQA for training DPR model, which is a powerful dense passage retriever. 
+In [Tutorial](Tutorial/), we give a tutorial of using ArchivalQA for training DPR model, which is a powerful dense passage retriever. 
 
 
 
