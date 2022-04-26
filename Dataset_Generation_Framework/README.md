@@ -18,7 +18,7 @@ The `Article_Selection_Module.ipynb` only contains the code of the first strateg
 ## 2_Question_Generation_Module.ipynb
 In Question Generation Module, we use the fine-tuned T5-base to generate questions for each paragraph.
 
-There are a few hyperparameters that need to be set and will influence the results: min_para_token_num, min_anssent_token_num, ans_ent_type_exclude_list. They influence the results by: (1).The paragraphs that have less than min_para_token_num tokens are eliminated. (2).The answers whose corresponding sentences have less than 10 tokens are eliminated. (3).The answers whose corresponding NER types in ans_ent_type_exclude_list(["PERSON", "ORG", ...], but not used in our work and set to empty list) are eliminated.
+There are a few hyperparameters in `Article_Selection_Module.ipynb` that need to be set and will influence the results: min_para_token_num, min_anssent_token_num, ans_ent_type_exclude_list. They influence the QG results by: (1).The paragraphs that have less than min_para_token_num tokens are eliminated. (2).The answers whose corresponding sentences have less than 10 tokens are eliminated. (3).The answers whose corresponding NER types in ans_ent_type_exclude_list(["PERSON", "ORG", ...], but not used in our work and set to empty list) are eliminated.
 
 ## 3_Syntactic&Temporal_Processing_Module.ipynb
 Question Generation Module consists of 8 basic processing steps that further remove or transform the candidate question-answer pairs obtained so far. Please check the paper for more details.
