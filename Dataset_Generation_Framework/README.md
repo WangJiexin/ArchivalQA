@@ -7,7 +7,7 @@ The following figure shows the architecture of our QG framework, which consists 
 
 In the paper, the NYT corpus is utilized as the underlying temporal news collection for creating ArchivalQA dataset. Note that due to the NYT corpus policy, we need to prevent exposing the whole NYT corpus to the public. To obtain the corpus, refer to https://catalog.ldc.upenn.edu. The data of the NYT corpus is used in the codes of the first module.
 
-For better explaining the last four modules of the framework, we randomly sample three paragraphs of three news articles in NYT corpus, that are stored in `examples.pkl`. Each example paragraph is consist of the paragraph-id information, the paragraph text and the publication date of the article.
+For better explaining the last four modules of the framework, we randomly sample five paragraphs of five news articles in NYT corpus, that are stored in `examples.pkl`. Each example paragraph is consist of the paragraph-id information, the paragraph text and the publication date of the article.
 
 The processing notebooks should be run in the order of:
 ## 1_Article_Selection_Module.ipynb
